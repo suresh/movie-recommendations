@@ -1,0 +1,10 @@
+name: movie_recos
+account: suresh-s
+server: shinyapps.io
+appId: 97826
+bundleId: 432887
+url: https://suresh-s.shinyapps.io/movie_recos/
+when: 1461549128.73402
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: prepare_data.R|recommder_movielens.R
