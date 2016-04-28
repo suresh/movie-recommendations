@@ -55,7 +55,7 @@ shinyServer(function(input, output) {
       userSelect <- as(mat, "realRatingMatrix")
 
       #Create Recommender Model
-      recommender_model <- Recommender(MovieDB, method = "POPULAR")
+      recommender_model <- Recommender(MovieDB, method = "UBCF")
       recom <- predict(recommender_model, userSelect, n = 10)
       recom_list <- as(recom, "list")
       recom_result <- data.frame(recom_list)
